@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41362691221",
+    "project_id": "transcargo-573ce",
+    "storage_bucket": "transcargo-573ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41362691221:android:35ffe0da9d0e36db24379c",
+        "android_client_info": {
+          "package_name": "com.Dmitri.TransCargo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMzQknDF6f2_A3mXIervVdE5qizy_WChg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

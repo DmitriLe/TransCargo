@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#0066FF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="94dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickProfile"
+        android:text="Назад"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="Создание заявки"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="740dp"
+        android:backgroundTint="#FFFFFF"
+        android:insetBottom="6dp"
+        android:onClick="onClickOffer"
+        android:text="СОЗДАТЬ"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#0066FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="305dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="180dp"
+        android:background="#FFFFFF"
+        android:textColor="#0066FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextData"
+                android:layout_width="match_parent"
+                android:layout_height="291dp"
+                android:gravity="top|start"
+                android:hint="Описание"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:minLines="5"
+                android:overScrollMode="never"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="306dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="496dp"
+        android:text="Уважаемый пользователь, при создании заявки, пожалуйста, укажите всю необходимую информацию(адрес отправки и достаки; планируемые цену и время в пути; объём, вес и тип груза)"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

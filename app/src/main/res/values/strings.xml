@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TransCargo</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+</resources>
